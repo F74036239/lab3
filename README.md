@@ -49,6 +49,8 @@ n^2   = 10^8
 
 0.0000... / 1.2800 < 0.00001 / 1.28 (=7.8125x10^-6 ≒ 10^-5)
 
+the size is not big , so the quick sort 's seconds are much shorter , and the ratio becomes smaller.
+
 results(3):
 
 input size:100000
@@ -83,4 +85,4 @@ n^2   = 10^12
 
 6x10^6 / 10^12 = 6x10^-6 ≒ 10^-5
 
-0.57 / 12817.17 = 4.44716x10^-5 ≒ 10^-4
+max sort():
