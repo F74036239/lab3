@@ -15,7 +15,6 @@ the empirical results and explanation for question B:
 
 
 input size:1000
-
 sort():0.0000seconds
 
 v1/v2 are different.
