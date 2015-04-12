@@ -13,49 +13,52 @@ F74036239@2015cpp:~/lab3$
 
 the empirical results and explanation for question B:
 
+results:
 
-input size:1000
+input size:1000  
 
 sort():0.0000seconds
 
-v1/v2 are different.
+insertion_sort():0.0100seconds
 
-insertion_sort():0.0200seconds
+explanation:
 
-v1/v2 are the same.
+nlogn = 3*10^3 ≒ 10^3
 
+n^2   = 10^6
+
+10^3 / 10^6 = 10^-3
+
+0.0000... / 0.02 = 
+
+results:
 
 input size:10000
 
-sort():0.0000seconds
-
 v1/v2 are different.
 
-insertion_sort():1.3600seconds
+insertion_sort():1.3100seconds
 
-v1/v2 are the same.
+explanation:
 
+results:
 
 input size:100000
 
-sort():0.0500seconds
+sort():0.0400seconds
 
-v1/v2 are different.
+insertion_sort():130.2500seconds
 
-insertion_sort():128.1400seconds
+explanation:
 
-v1/v2 are the same.
-
+results:
 
 input size:1000000
 
 sort():0.5700seconds
 
-v1/v2 are different.
-
 insertion_sort():12817.1700seconds
 
-v1/v2 are the same.
-
+explanation:
 
 
