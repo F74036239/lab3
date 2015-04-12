@@ -27,9 +27,9 @@ nlogn = 3x10^3
 
 n^2   = 10^6
 
-3x10^3 / 10^6 = 3x10^-3 ≒ 10^-3
+3x10^3 / 10^6 = 3x10^-3 
 
-0.0000... / 0.01 < 0.00001 / 0.01 (= 10^-3)
+if insertion-sort is n^2 , MAX_sort = 3x10^-3x0.01 = 3x10^-5 > 0.0000....  correspond.
 
 results(2):
 
@@ -45,11 +45,9 @@ nlogn = 4x10^4
 
 n^2   = 10^8
 
-4x10^4 / 10^8 = 4x10^-4 ≒ 10^-3
+4x10^4 / 10^8 = 4x10^-4 
 
-0.0000... / 1.2800 < 0.00001 / 1.28 (=7.8125x10^-6 ≒ 10^-5)
-
-the size is not big , so the quick sort 's seconds are much shorter , and the ratio becomes smaller.
+if insertion-sort is n^2 , MAX_sort = 4x10^-4x1.28 ≒ 4x10^-4 > 0.0000....  correspond.
 
 results(3):
 
@@ -65,9 +63,11 @@ nlogn = 5x10^5
 
 n^2   = 10^10
 
-5x10^5 / 10^10 = 5x10^-5 ≒ 10^-4
+5x10^5 / 10^10 = 5x10^-5 
 
-0.04 / 130.25 = 0.0003071017 ≒ 3x10^-4 ≒ 10^-4
+if insertion-sort is n^2 , MAX_sort = 5x10^-5x130.25 = 6.5125x10^-3 < 0.04  no correspond.
+
+if quick-sort is nlogn , MAX_insertion = 0.04 / 10^-5 = 4000  > 130.25  correspond.
 
 results(4):
 
@@ -85,4 +85,6 @@ n^2   = 10^12
 
 6x10^6 / 10^12 = 6x10^-6 ≒ 10^-5
 
-max sort():
+if insertion-sort is n^2 , MAX_sort = 10^-5x12817.17 = 1.281717x10^-1  < 0.57 no correspond.
+
+if quick-sort is nlogn , MAX_insertion = 0.57 / 10^-5 = 5.7x10^4 > 12817.17  correspond.
